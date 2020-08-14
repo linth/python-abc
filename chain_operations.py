@@ -118,15 +118,3 @@ class IeChain(Generic[T]):
 
     def on_complete(self) -> T:
         return self.ie_data_holder.kept_data
-
-
-class A(IeAbsConverter):
-    def execute_conversion(self, item: T) -> T:
-        print(f'{__class__.__name__}, execute_conversion')
-        item += 3
-        print(item)
-
-
-if __name__ == '__main__':
-    a = A()
-    a.do_convert(3)
