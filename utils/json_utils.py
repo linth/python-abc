@@ -16,3 +16,7 @@ def obj_to_json(given: object) -> str:
     except Exception as e:
         print(f'error on obj_to_json: {e}')
         return ''
+
+
+# TODO: try this function.
+#  using dumps(), loads(),
