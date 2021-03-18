@@ -2,7 +2,10 @@ from abc import ABC, abstractmethod
 from typing import Generic, TypeVar
 from exception.basic_exception import IeBaseException
 
-
+"""
+T = TypeVar('T')  # Can be anything
+A = TypeVar('A', str, bytes)  # Must be str or bytes
+"""
 T = TypeVar("T")
 
 
