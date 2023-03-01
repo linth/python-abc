@@ -37,6 +37,13 @@ class MyCustomDateTime:
 
     def get_datetime(self):
         return self.dt
+    
+    # TODO: 
+    # datetime.datetime.strptime(date_string, format)：string convert to datetime object，需要指定 string 的格式。
+    # datetime.datetime.strftime(format)：datetime object convert to string 格式。
+    # datetime.timedelta
+    # datetime.time.strftime(format)：time object convert to string 格式。
+    # datetime.datetime.combine(date, time)：日期和時間 object 组合成 datetime object。
 
 
 class CalculateDateTime(MyCustomDateTime):
